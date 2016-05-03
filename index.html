@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+</head>
+
+<link rel="stylesheet" type="text/css" href="css/style.css">
+
+<body>
+
+
+<!-- BACKGROUND -->	
+ <style>
+   body{background-image: url("images/sunset5.jpg") </style>
+
+
+
+<div id="wrapper"> 
+
+<!-- ENROLL NOW -->	
+	<div id="header"> 
+
+ 		 <div id="enroll">
+			<div id="now"> 
+				<h1 style="color: white; font-size: margin:auto; position:absolute; bottom: -15px; "> ENROLL NOW!!!</h1>
+			</div>
+		</div>
+<!-- SUN / HOME -->	
+    	
+    	<div id="sun3"> 
+			<a href="index.html">
+				<img src="images/sun3.png">
+			</a>
+			<h1 style="font-size: 12px; text-align: center;"> Est. 1984</h1>
+		</div>
+
+<!-- HEAD -->	
+
+	<div id="school"> 
+		<h1 style="font-size: 50px; position:absolute; margin:auto; top:10px; "> Sunset Park Children's School</h1>
+	</div>
+
+	</div>
+
+<!-- MENU -->	
+
+	<div id="menu">
+		<ul>
+			<li><a id="active" href="tuition.html" >Tuition</a></li>
+    		<li><a href="about.html" >About</a></li>
+    		<li><a href="events.html" >Events</a></li>
+     		 <li><a href="staff.html">Staff</a></li>
+     		 
+     		 <li class="dropdown">
+   			 	<a href="contact.html" class="dropbtn">Contact</a>
+    				<div class="dropdown-content">
+      			<a href="waiting.html">Waiting List</a>
+    				</div>
+  			</li>
+
+     		  <li><a href="testimonial.html">Testimonials</a></li>
+     		   <li><a href="faq.html">FAQ</a></li>
+		</ul>
+	</div>
+
+
+	<div id="place" >
+		
+	</div>
+	
+<!-- SLIDESHOW -->	
+	<div id="show"> 
+
+		<div class="slideshow-container">
+  <div class="mySlides fade">
+    <div class="numbertext">1 / 4</div>
+    <img src="images/day1.jpg" style="width:100%; height: 450px;">
+    <div class="text">Play Area</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">2 / 4</div>
+    <img src="images/day2.jpg" style="width:100%; height: 450px;">
+    <div stylr="font-color " class="text">Easter Island</div>
+  </div>
+
+  <div class="mySlides fade">
+    <div class="numbertext">3 / 4</div>
+    <img src="images/day3.jpg" style="width:100%; height: 450px;">
+    <div stylr="font-color " class="text">Arts & Crafts</div>
+  </div>
+
+<div class="mySlides fade">
+    <div class="numbertext">4 / 4</div>
+    <img src="images/day4.jpg" style="width:100%; height: 450px;">
+    <div stylr="font-color " class="text">Playtime!</div>
+  </div>
+
+  <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+  <a class="next" onclick="plusSlides(1)">&#10095;</a>
+</div>
+<br>
+
+<div style="text-align:center">
+  <span class="dot" onclick="currentSlide(1)"></span> 
+  <span class="dot" onclick="currentSlide(2)"></span> 
+  <span class="dot" onclick="currentSlide(3)"></span> 
+</div>
+
+<!--- JS -->
+
+<script>
+var myIndex = 0;
+carousel();
+
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";  
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}    
+    x[myIndex-1].style.display = "block";  
+    setTimeout(carousel, 4000); // Change image every 2 seconds
+}
+</script>
+	  <!-- CLOSING JS -->
+
+
+
+	</div>
+
+</div>
+
+
+<div id="footer">
+
+<H4 style="text-align: center; " > Sunset Park Children's School  -  sunsetparkchild@aol.com  -  4616 4th Ave. Brooklyn, NY 11220 USA  -  PHONE: 718-439-3323  -  MOBILE: 917-8874875 - Fax: 718-554-7909</H4>
+
+ </div>
+
+</body>
+</html>
