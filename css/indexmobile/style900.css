@@ -14,10 +14,10 @@ div h1 a {
   text-decoration: none;
   color: white
 }
-
 #school h1{
-  font-size: 50px;
+  font-size: 10px;
 }
+
 
 /* Force scrollbars onto browser window */
 body {
@@ -57,7 +57,7 @@ background: #88ba1c;
 /* CONTAIN */
 
 #wrapper{
-	width: 80%;
+	width: 90%;
 	height: 1300px;
 	background: white;
 	position: relative;
@@ -68,7 +68,7 @@ background: #88ba1c;
 /* FOOTER */
 
 #footer {
-	width: 80%;
+	width: 90%;
 	height: 50px;
 	background: yellow;
 	position: relative;
@@ -82,7 +82,7 @@ background: #88ba1c;
 #header{
 	width: 100%;
 	height: 190px;
-	background: yellow ;
+	background: red ;
 	position: absolute;
 	margin: auto;
 	margin-top: 0px;
@@ -100,10 +100,10 @@ background: #88ba1c;
 	width: 680px;
 	height: 80px;
 	position: relative;
-	background:--- red;
+	background:---red;
     margin: auto;
     top: 80px;
-	left: 0px;
+	left: 115px;
 }
 
 h1 #est {
@@ -159,7 +159,7 @@ li a, .dropbtn {
     display: inline-block;
     color: black;
     text-align: center;
-    padding: 14px 85.7px;
+    padding: 14px 49.3px;
     text-decoration: none;
 }
 
