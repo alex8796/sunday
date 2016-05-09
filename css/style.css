@@ -314,3 +314,37 @@ margin-top: -200px;
   from {opacity: .4} 
   to {opacity: 1}
 }
+
+
+
+
+
+/* CONTENT */
+
+#guide{
+  width: 105px;
+  height: 20px;
+  background: yellow;
+  position: absolute;
+  margin-top: 27px;
+  margin-left: 1390px;
+  padding: 10px;
+  
+}
+
+#guide a{
+  text-decoration: none;
+  color: red;
+}
+
+#hill {
+  height: 400px;
+}
+
+#grass{
+  width: 100%;
+  position: absolute;
+  margin: auto;
+  height: 300px;
+  top:760px;
+}
