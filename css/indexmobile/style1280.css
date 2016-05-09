@@ -98,11 +98,11 @@ background: #88ba1c;
 #school{
 	width: 680px;
 	height: 80px;
-	position: relative;
+	position: absolute;
 	background:---red;
     margin: auto;
     top: 80px;
-	left: 85px;
+	left: 215px;
 }
 
 h1 #est {
@@ -312,4 +312,10 @@ margin-top: -200px;
 @keyframes fade {
   from {opacity: .4} 
   to {opacity: 1}
+}
+
+
+#guide{
+margin-left: 880px;
+position: absolute;
 }
