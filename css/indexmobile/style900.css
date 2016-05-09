@@ -15,7 +15,7 @@ div h1 a {
   color: white
 }
 #school h1{
-  font-size: 10px;
+  font-size: 50px;
 }
 
 
@@ -97,13 +97,13 @@ background: #88ba1c;
 }
 
 #school{
-	width: 680px;
+	width: 630px;
 	height: 80px;
-	position: relative;
+	position: absolute;
 	background:---red;
     margin: auto;
     top: 80px;
-	left: 115px;
+	left: 145px;
 }
 
 h1 #est {
@@ -152,14 +152,14 @@ h1 #est {
 }
 
 #menu li {
-    float: left;
+    float: center;
 }
 
 li a, .dropbtn {
     display: inline-block;
     color: black;
     text-align: center;
-    padding: 14px 49.3px;
+    padding: 14px 35.3px;
     text-decoration: none;
 }
 
@@ -197,23 +197,9 @@ li.dropdown {
 
 /* HOME CONTENT */
 
-#place{
-	width: 200px;
-	height: 300px;
-	background: ---red;
-	position: absolute;
-	margin-top: 330px;
-	margin-left: 690px;
-	
-}
 
-#lugar{
-	width: 600px;
-	height: 500px;
-	position: absolute;
-	top: 270px;
-	left: 15px;
-}
+
+ 
 
 
 /* SLIDESHOW */
@@ -313,4 +299,9 @@ margin-top: -200px;
 @keyframes fade {
   from {opacity: .4} 
   to {opacity: 1}
+}
+
+
+#guide{
+  margin-left: 665px;
 }

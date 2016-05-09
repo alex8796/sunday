@@ -15,8 +15,9 @@ div h1 a {
   color: white
 }
 #school h1{
-  font-size: 57px;
+  font-size: 30px;
 }
+
 
 /* Force scrollbars onto browser window */
 body {
@@ -56,7 +57,7 @@ background: #88ba1c;
 /* CONTAIN */
 
 #wrapper{
-	width: 80%;
+	width: 90%;
 	height: 1300px;
 	background: white;
 	position: relative;
@@ -67,7 +68,7 @@ background: #88ba1c;
 /* FOOTER */
 
 #footer {
-	width: 80%;
+	width: 90%;
 	height: 50px;
 	background: yellow;
 	position: relative;
@@ -81,7 +82,7 @@ background: #88ba1c;
 #header{
 	width: 100%;
 	height: 190px;
-	background: ---red ;
+	background: red ;
 	position: absolute;
 	margin: auto;
 	margin-top: 0px;
@@ -96,13 +97,13 @@ background: #88ba1c;
 }
 
 #school{
-	width: 680px;
+	width: 200px;
 	height: 80px;
-	position: relative;
+	position: absolute;
 	background:---red;
     margin: auto;
-    top: 80px;
-	left: 85px;
+    top: 60px;
+	left: 135px;
 }
 
 h1 #est {
@@ -151,14 +152,14 @@ h1 #est {
 }
 
 #menu li {
-    float: left;
+    float: center;
 }
 
 li a, .dropbtn {
     display: inline-block;
     color: black;
     text-align: center;
-    padding: 14px 50.6px;
+    padding: 14px 35.3px;
     text-decoration: none;
 }
 
@@ -196,23 +197,9 @@ li.dropdown {
 
 /* HOME CONTENT */
 
-#place{
-	width: 200px;
-	height: 300px;
-	background: ---red;
-	position: absolute;
-	margin-top: 330px;
-	margin-left: 690px;
-	
-}
 
-#lugar{
-	width: 600px;
-	height: 500px;
-	position: absolute;
-	top: 270px;
-	left: 15px;
-}
+
+ 
 
 
 /* SLIDESHOW */
@@ -316,5 +303,5 @@ margin-top: -200px;
 
 
 #guide{
-  margin-left: 879px;
+  margin-left: 205px;
 }
