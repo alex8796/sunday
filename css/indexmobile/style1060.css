@@ -15,7 +15,7 @@ div h1 a {
   color: white
 }
 #school h1{
-  font-size: 57px;
+  font-size: 55px;
 }
 
 /* Force scrollbars onto browser window */
@@ -102,7 +102,7 @@ background: #88ba1c;
 	background:---red;
     margin: auto;
     top: 80px;
-	left: 85px;
+	left: 75px;
 }
 
 h1 #est {
@@ -158,16 +158,19 @@ li a, .dropbtn {
     display: inline-block;
     color: black;
     text-align: center;
-    padding: 14px 50.6px;
+    padding: 14px 37.99px;
     text-decoration: none;
+
 }
 
 li a:hover, .dropdown:hover .dropbtn {
     background-color: #0DB2FF;
+
 }
 
 li.dropdown {
     display: inline-block;
+
 }
 
 .dropdown-content {
@@ -316,5 +319,5 @@ margin-top: -200px;
 
 
 #guide{
-  margin-left: 879px;
+  margin-left: 700px;
 }
