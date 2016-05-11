@@ -52,7 +52,7 @@ background: #88ba1c;
 
 #wrapper{
 	width: 80%;
-	height: 1300px;
+	height: 1500px;
 	background: white;
 	position: relative;
 	margin: auto;
@@ -336,8 +336,29 @@ margin-top: -200px;
 }
 #reviews{
   position: absolute;
-  width: 1000px;
+  width: 900px;
   height: 100px;
   margin-top: 1000px;
-  margin-left: 200px;
+  margin-left: 300px;
+}
+
+#principal
+ {
+  border-radius: 100%
+  
+}
+
+#queen{
+  width: 250px;
+  height: 250px;
+  background: black;
+  border-radius: 100%;
+
+}
+
+#queen1{
+  border-radius: 100%;
+
+
+
 }
