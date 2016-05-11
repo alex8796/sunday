@@ -322,3 +322,105 @@ margin-top: -200px;
 
 
 }
+
+#Circle1{
+  width:300px;
+  height:300px; 
+  border-radius: 100%;
+  background:green;
+  position:absolute;
+  margin-top:400px;
+  margin-left: 40px;
+}
+#Mel{
+  width:300px;
+  height: 300px;
+  border-radius: 100%;
+}
+
+
+#Circle2{
+  width:300px;
+  height:300px;
+  background: yellow;
+  position: absolute;
+  border-radius: 100%;
+  margin-top: 400px;
+  margin-left: 370px;
+}
+#Kayla{
+  width:300px;
+  height:300px;
+  border-radius: 100%;
+  z-index: 1;
+}
+
+#Circle3{
+  width:300px;
+  height:300px;
+  background:orange;
+  position: absolute;
+  border-radius: 100%;
+  margin-top: 400px;
+  margin-left: 700px;
+}
+#woman{
+  width:300px;
+  height:300px;
+  border-radius: 100%;
+}
+
+#Circle4{
+  width:300px;
+  height:300px;
+  background:blue;
+  position: absolute;
+  border-radius: 100%;
+  margin-top: 830px;
+  margin-left: 40px;
+}
+#person{
+  width:300px;
+  height:300px;
+  border-radius: 100%;
+}
+
+#Circle5{
+  width:300px;
+  height:300px;
+  background:purple;
+  position: absolute;
+  border-radius: 100%;
+  margin-top: 830px;
+  margin-left: 370px;
+}
+#lady{
+  width:300px;
+  height:300px;
+  border-radius: 100%;
+}
+
+
+#Circle6{
+  width:300px;
+  height: 300px;
+  background: red;
+  position: absolute;
+  border-radius: 100%;
+  margin-top: 830px;
+  margin-left:700px;
+}
+#Ashley{
+width:300px;
+height:300px;
+border-radius:100%;
+}
+
+
+#Our{
+  margin: auto;
+  margin-top:310px;
+  position: absolute;
+  margin-left: 450px;
+
+}
