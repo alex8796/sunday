@@ -318,7 +318,15 @@ margin-top: -200px;
   background: ---white;
   position: absolute;
   margin-left: 400px;
-  margin-top: 300px;
+  margin-top: 500px;
 
 
+}
+
+h1{
+  font-family: Rokkitt;
+}
+
+p{
+  font-family: Rokkitt;
 }
