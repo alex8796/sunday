@@ -321,6 +321,13 @@ margin-top: -200px;
   margin-top:300px;
   margin-left: 60px;
 }
+h1{
+  font-family: Rokkitt;
+}
+
+h2{
+  font-family: Rokkitt;
+}
 
 #Calendar{
   width:600px;
